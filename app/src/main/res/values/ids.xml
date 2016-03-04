@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="scan_tree" type="id">scan_tree</item>
+    <item name="scan_format" type="id">scan_format</item>
+    <item name="scan_button" type="id">scanResult</item>
+</resources>

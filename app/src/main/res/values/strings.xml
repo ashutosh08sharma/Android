@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SmartStreet</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="google_app_id">AIzaSyBoj73JLf0FHkL-LH5PMzpIrcMYMDelKY0</string>
+    <string name="title_activity_barcode">ActivityBarcode</string>
+    <string name="treeScanner">treeScanner </string>
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="about">about</string>
+    <string name="scanButton">Scan</string>
+    <string name="title_activity_barcode_scanner">barcodeScanner</string>
+    <string name="title_activity_place_picker">placePicker</string>
+    <string name="title_activity_places_api">PlacesAPI</string>
+    <string name="title_activity_place_nearby">placeNearby</string>
+    <string name="default_place_text">textView</string>
+    <string name="title_activity_nearby_places">nearbyPlaces</string>
+    <string name="title_activity_comment">commentActivity</string>
+    <string name="title_activity_share">shareActivity</string>
+    <string name="title_activity_interact">Interact</string>
+    <string name="title_activity_splash">splashActivity</string>
+
+
+</resources>
