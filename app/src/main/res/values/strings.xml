@@ -18,6 +18,15 @@
     <string name="title_activity_share">shareActivity</string>
     <string name="title_activity_interact">Interact</string>
     <string name="title_activity_splash">splashActivity</string>
+    <string name="title_activity_dsd">dsd</string>
+    <string name="cannot">cannot</string>
+    <string name="btnIntend">Take Photo</string>
+    <string name="btnIntendS">Take Video</string>
+    <string name="btnIntendV">Share</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Smart Street</string>
+    <string name="facebook_app_id">1746051462297395</string>
+    <string name="share">fbShare</string>
 
 
 </resources>

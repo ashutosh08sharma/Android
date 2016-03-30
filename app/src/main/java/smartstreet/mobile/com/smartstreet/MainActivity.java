@@ -1,15 +1,9 @@
 package smartstreet.mobile.com.smartstreet;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 
 // Main page of app,, first activity to load when application is opened, contains six imagebutton and barcode in the bottom which redirects to Smart Street website
 
@@ -34,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void scanTree()
     {
-        Intent i = new Intent(this, barcodeScanner.class);
+        Intent i = new Intent(this, BarcodeScanner.class);
         startActivity(i);
     }
 
@@ -46,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void showComment()
     {
-        Intent i = new Intent(this, commentActivity.class);
+        Intent i = new Intent(this, CommentActivity.class);
         startActivity(i);
     }
 
@@ -62,6 +56,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         startActivity(i);
     }
+
+
 
 
 
@@ -92,6 +88,7 @@ onClick method based on  button id it will redirect it to that particular activi
             case R.id.interactButton:
                 viewInteract();
                 break;
+
 
         }
     }

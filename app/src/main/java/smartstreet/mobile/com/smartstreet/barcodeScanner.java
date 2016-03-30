@@ -17,7 +17,7 @@ import android.widget.TextView;
 /*
 implemented barcode scanner  using zxing library
  */
-public class barcodeScanner extends AppCompatActivity {
+public class BarcodeScanner extends AppCompatActivity {
 
     static final String SCAN = "com.google.zxing.client.android.SCAN";
     private TextView formatText, contentText; // text view to show scan result

@@ -65,6 +65,7 @@ To use Place Picker,create an intent and listen for the Activity result to retri
         @Override
         protected void onActivityResult(int requestCode, int resultCode, Intent data)
         {
+
             if (requestCode == PLACE_PICKER_REQUEST && resultCode == Activity.RESULT_OK)
             {
                 final Place place = PlacePicker.getPlace(this, data);
